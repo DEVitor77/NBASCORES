@@ -7,7 +7,8 @@ def get_games():
     games = [
         {"game": 1, "team1": "Lakers", "team2": "Heat", "score": "102-96"},
         {"game": 2, "team1": "Celtics", "team2": "Warriors", "score": "98-103"},
-        {"game": 3, "team1": "Nets", "team2": "Bucks", "score": "110-115"}
+        {"game": 3, "team1": "Nets", "team2": "Bucks", "score": "110-115"},
+        {"game": 4, "team1": "pallac", "team2": "packs", "score": "110-125"}
     ]
     return jsonify(games)
 
